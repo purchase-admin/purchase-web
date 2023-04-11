@@ -15,7 +15,7 @@
 
 <script>
 import defaultSettings from '@/settings.js'
-import logoImg from '@/assets/logo/logo1.png'
+import logoImg from '@/assets/logo/logo.png'
 import variables from '@/assets/styles/variables.scss'
 
 export default {
