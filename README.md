@@ -1,30 +1,11 @@
-## 开发
+# purchase-web
+若依前后端分离版
 
-```bash
-# 克隆项目
-git clone https://gitee.com/y_project/RuoYi-Vue
+在原版基础上集成了bpmn.js
+![image](https://user-images.githubusercontent.com/25337521/231092716-5b97788f-4f25-4605-babb-2d383e4e3cae.png)
 
-# 进入项目目录
-cd ruoyi-ui
+自定义面板功能,例如选人
+![image](https://user-images.githubusercontent.com/25337521/231092865-9256ab06-293d-4588-9a6d-f93ef3c1a115.png)
 
-# 安装依赖
-npm install
 
-# 建议不要直接使用 cnpm 安装依赖，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
-npm install --registry=https://registry.npm.taobao.org
-
-# 启动服务
-npm run dev
-```
-
-浏览器访问 http://localhost:80
-
-## 发布
-
-```bash
-# 构建测试环境
-npm run build:stage
-
-# 构建生产环境
-npm run build:prod
-```
+后端地址:[purchase-backend](https://github.com/purchase-admin/purchase-backend)
